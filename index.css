@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@200&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,200;1,200&family=Roboto:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@200&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,200;1,200&family=Roboto:wght@200&display=swap"); */
 
 * {
   margin: 0;
@@ -141,21 +141,365 @@
   width: 100%;
   height: 43vh;
   background-color: rgb(92, 116, 240);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
   .box1 {
     width: 100%;
     height: 20vh;
     color: #ffffff;
     text-align: center;
+    font-size: 3rem;
+     font-family: "Raleway", sans-serif; 
+   /* font-family: "Raleway", sans-serif; */
+    padding-top: 1rem;
+  }
+  .box2{
+    width: 55%;
+    height: 12vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    /* padding-right: 1rem; */
+    padding-left: 4rem;
+    /* padding: auto;     */
+
+    #input1{
+      width: 35%;
+      height: 70%;
+      background-color: rgba(213, 213, 213, 0.644);
+      border-radius: 7rem;
+      padding-left:2rem;
+      font-size: large;
+      border: 0;
+
+    }
+    #input2{
+      width: 35%;
+      height: 70%;
+      background-color: rgba(213, 213, 213, 0.644);
+      border-radius: 7rem;
+      padding-left:2rem;
+      font-size: large;
+      border: 0;
+
+    }
+    #submit{
+      width: 20%;
+      height: 70%;
+      background-color:rgb(241, 197, 14) ;
+      border-radius: 7rem;
+      font-size: large;
+      font-weight: 600;
+      border: 0;
+
+    }
+
+  }
+}
+
+.page3{
+  width: 100%;
+  height: 98vh;
+  /* background-color: rgb(149, 22, 22); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .bigbox{
+    width: 75%;
+    height: 80%;
+    /* background-color: aqua; */
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    /* font-family: "Raleway", sans-serif; */
-    font-family: "Raleway", sans-serif;
+    /* padding-top: 1rem; */
 
-    /* background-color: rgb(6, 17, 17); */
-    padding-top: 3rem;
+    .boxs{
+      width: 30%;
+      height:36vh;
+      background-color: rgb(165, 42, 126);
+      border-radius: 3rem;
+      position: relative;
+      
+
+      
+    }
+   #img1{
+        width: 100%;
+        height: 100%;
+        background-image: url(./workers-considering-term-agreement.jpg);
+        border-radius: 3rem;
+   }
+
+   #b2{
+      background-color: rgb(92, 116, 240);
+
+         #h51{
+         text-align: center;
+         font-size: 35px;
+         padding-top: 55px;
+         color: #ffffff;
+         font-family: "Raleway", sans-serif;
+         }
+         #h61{
+          width: 100%;
+          height: 20%;
+          /* background-color: aqua; */
+          text-align: center;
+          font-size: medium;
+          padding-top: 25px;
+          font-size: 18px;
+          color: #ebeaea;
+         }
+         p{
+          width: 100%;
+          height: 20%;
+          text-align: center;
+          font-size: medium;
+          padding-top: 30px;
+          color: #ebeaea;
+          a{
+            color: #ebeaea;
+            font-size: 17px;
+            font-weight: 700;
+            text-decoration: none;
+          }
+         }
+
+   }
+          #img2{
+               width: 100%;
+                 height: 100%;
+                 background-image: url(./workers-considering-term-agreement.jpg);
+                  border-radius: 3rem;
+           }
+          
+         
+
+            #img3{
+             width: 12%;
+             /* padding-left: 3rem; */
+             position: absolute;
+             top:20%;
+             left: 43%; 
+             position: relative;
+           } 
+           .color{
+                 width: 4vw;
+                 height: 7vh;
+                 background-color:rgb(241, 197, 14) ;
+                 position: absolute;
+                 top: 17%;
+                 left: 40%;
+                 border-radius: 50%;
+           }
+           #h52{
+            width: 100%;
+            height: 5vh;
+            /* background-color: rgb(170, 66, 66); */
+            font-size: xx-large;
+            text-align: center;
+            padding-top: 6rem;
+           }
+
+           #b4{
+            background-color: rgb(242, 242, 242);
+                
+
+            #img3{
+             width: 12%;
+             /* padding-left: 3rem; */
+             position: absolute;
+             top:20%;
+             left: 43%; 
+             position: relative;
+           } 
+           .color{
+                 width: 4vw;
+                 height: 7vh;
+                 background-color:rgb(241, 197, 14) ;
+                 position: absolute;
+                 top: 17%;
+                 left: 40%;
+                 border-radius: 50%;
+           }
+           #h52{
+            width: 100%;
+            height: 5vh;
+            /* background-color: rgb(170, 66, 66); */
+            font-size: xx-large;
+            text-align: center;
+            padding-top: 7rem;
+           }
+           #h62{
+            width: 100%;
+          height: 20%;
+          text-align: center;
+          font-size: medium;
+          padding-top: 60px;
+          font-size: 18px;
+          color: #4d4d4d;
+           }
+
+           }
+           
+           #b5{
+             #img4{
+              width: 100%;
+                 height: 100%;
+                 background-image: url(./box5.jpg);
+                  border-radius: 3rem;
+             }
+           }
+
+           #b6{
+            background-color: rgb(242, 242, 242);
+                
+
+            #img5{
+             width: 12%;
+             /* padding-left: 3rem; */
+             position: absolute;
+             top:20%;
+             left: 43%; 
+             position: relative;
+           } 
+           .color{
+                 width: 4vw;
+                 height: 7vh;
+                 background-color:rgb(241, 197, 14) ;
+                 position: absolute;
+                 top: 17%;
+                 left: 40%;
+                 border-radius: 50%;
+           }
+           #h53{
+            width: 100%;
+            height: 5vh;
+            /* background-color: rgb(170, 66, 66); */
+            font-size: xx-large;
+            text-align: center;
+            padding-top: 7rem;
+           }
+           #h63{
+            width: 100%;
+          height: 20%;
+          text-align: center;
+          font-size: medium;
+          padding-top: 60px;
+          font-size: 18px;
+          color: #4d4d4d;
+           }
+
+
+           }
   }
+}
+
+.page4{
+  width: 100%;
+  height: 50vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      align-items: center;
+
+  
+    #p1{
+      
+    width: 100%;
+    height: 15vh;
+    background-color: #ffffff;
+
+      #h31{
+        width: 100%;
+        height: 100%;
+         font-family: "Raleway", sans-serif;
+         font-size: 3rem;
+         text-align: center;
+         font-weight:500;
+         color: rgba(22, 22, 22);
+      }
+    }
+
+    #bigbox2{
+      padding-top: 2rem;
+      width: 70%;
+      height: 40vh;
+      /* background-color: burlywood; */
+      display: flex;
+      gap: 1rem;
+
+      .parts{
+        width: calc(100% /3);
+        height: 97%;
+        border-radius: 3rem;
+      }
+      #part1{
+      background-color: rgb(92, 116, 240);
+        .g1{
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #ffffff;    
+          padding-top: 3rem;
+          padding-bottom: 1rem;
+        }
+        .g2{
+          text-align: center;
+          font-size: larger;
+          color: #ffffff;    
+
+        }
+      }
+      #part2{
+      background-color:rgb(241, 197, 14) ;
+       .g1{
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #ffffff;    
+          padding-top: 3rem;
+          padding-bottom: 1rem;
+        }
+        .g2{
+          text-align: center;
+          font-size: larger;
+          color: #ffffff;    
+
+        }
+      }
+      #part3{
+      background-color: rgb(242, 242, 242);
+       .g1{
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #ffffff;    
+          padding-top: 3rem;
+          padding-bottom: 1rem;
+        }
+        .g2{
+          text-align: center;
+          font-size: larger;
+          color: #ffffff;    
+
+        }
+      }
+    }
+  
+}
+.page5{
+  width: 100%;
+  height: 100vh;
+  background-color: #dfdddd;
 }
